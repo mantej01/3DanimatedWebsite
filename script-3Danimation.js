@@ -1,5 +1,5 @@
  function files(index) {
-  const basePath = "https://raw.githubusercontent.com/yourusername/yourrepository/main/img/3d/xtra/";
+  const basePath = "";
   const paddedIndex = String(index + 1).padStart(3, '0'); // Ensures index is three digits long
   return `${basePath}${paddedIndex}.png`;
 }
