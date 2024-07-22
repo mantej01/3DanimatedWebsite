@@ -1,5 +1,5 @@
- function files(index) {
-  const basePath = "";
+function files(index) {
+  const basePath = "/"; // Adjust this path as needed
   const paddedIndex = String(index + 1).padStart(3, '0'); // Ensures index is three digits long
   return `${basePath}${paddedIndex}.png`;
 }
